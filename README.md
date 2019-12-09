@@ -1,6 +1,6 @@
 # SRT translator
 
-Simple Python script to translate SRT files using Google translate
+Simple Python script to translate SRT files using Google translate.
 
 ## Requirements
 
@@ -58,7 +58,7 @@ The list of language codes can be found [here](https://cloud.google.com/translat
 ```
 export GOOGLE_APPLICATION_CREDENTIALS="/path/to/your/google/cloud/key.json"
 
-python srt_translator.py -f input/test.srt -sl en -tl fr
+python3 srt_translator.py -f input/test.srt -sl en -tl fr
 ```
 
 ## SRT files structure
